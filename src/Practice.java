@@ -20,7 +20,7 @@ public class Practice {
         email.submit();
 
         WebElement passWord= driver.findElement(By.name("password"));
-        passWord.sendKeys("Manchester1!");
+        passWord.sendKeys("pass12345!");
         passWord.submit();
 
 

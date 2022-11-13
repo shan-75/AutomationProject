@@ -5,10 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Firstautomation {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","C:\\Automation\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.amazon.com/");
-
 
         WebElement signIn = driver.findElement(By.name("//*[@id=\"nav-link-accountList-nav-line-1\"]"));
         signIn.sendKeys();
