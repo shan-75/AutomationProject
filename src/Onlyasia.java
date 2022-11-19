@@ -16,6 +16,7 @@ public class Onlyasia {
 //allCountries has object of asia not driver.
         List<WebElement> allCountries= asia.findElements(By.tagName("a"));
 
+
         for (WebElement w: allCountries){
             if (w.getText()==""){
                 continue;
