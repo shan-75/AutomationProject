@@ -17,9 +17,11 @@ public class Hover {
         WebElement actionClick= driver.findElement(By.xpath("//*[@id=\"actions\"]/div/div[1]/h1"));
         actionClick.click();
 
+//      It helps to switch to the new tab
         ArrayList<String> tabs1 = new ArrayList<String> (driver.getWindowHandles());
         driver.switchTo().window(tabs1.get(1));
 
+//      while hovering button has to be click so we used .click()
         WebElement hoverClick= driver.findElement(By.xpath("//*[@id=\"div-hover\"]/div[3]/button"));
         hoverClick.click();
 
