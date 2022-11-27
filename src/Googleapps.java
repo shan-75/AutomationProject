@@ -40,7 +40,7 @@ public class Googleapps {
         Thread.sleep(1500);
         driver. navigate(). back();
 
-        driver.switchTo().frame(0);
+        driver.switchTo().frame(1);
 
         WebElement allApps1= driver.findElement(By.xpath("//*[@id=\"gbwa\"]/div/a"));
         allApps1.click();
@@ -49,9 +49,6 @@ public class Googleapps {
 
         WebElement youTube= driver.findElement(By.xpath("//*[@id=\"yDmH0d\"]/c-wiz/div/div/c-wiz/div/div/ul[1]/li[7]"));
         youTube.click();
-
-
-
 
     }
 }
