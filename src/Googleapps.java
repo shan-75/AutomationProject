@@ -40,7 +40,7 @@ public class Googleapps {
         Thread.sleep(1500);
         driver. navigate(). back();
 
-        driver.switchTo().frame(1);
+        driver.switchTo().frame(0);
 
         WebElement allApps1= driver.findElement(By.xpath("//*[@id=\"gbwa\"]/div/a"));
         allApps1.click();
