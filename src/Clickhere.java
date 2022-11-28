@@ -14,7 +14,7 @@ public class Clickhere {
 //      to maximize the screen
         driver.manage().window().maximize();
 
-//      use iframe if you have to go website inside website.
+//      use iframe if you have to go website inside website. and iframe has name ourframe in website.
         driver.switchTo().frame("ourframe");
 
         WebElement herelick= driver.findElement(By.xpath("//*[@id=\"content-wrapper\"]/ul/li[1]/a"));
@@ -42,7 +42,7 @@ public class Clickhere {
         WebElement ans= driver.findElement(By.tagName("button"));
         ans.click();
 
-        driver.close();
+
 
 
 

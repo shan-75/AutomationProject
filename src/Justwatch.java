@@ -16,6 +16,7 @@ public class Justwatch {
 
 // list of all countries
         List<WebElement> allCountries= driver.findElements(By.tagName("a"));
+        //*[@id="base"]/div/div/div/div[2]/div[5]/div
         System.out.println(allCountries.size());
 
         for (WebElement w:allCountries){
